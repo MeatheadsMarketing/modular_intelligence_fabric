@@ -1,0 +1,163 @@
+.
+├── #StreamlitAuditGuard
+│   ├── assistant_registry.csv
+│   ├── audit_dashboard_all.py
+│   ├── CHANGELOG.md
+│   ├── deployable_assistants.csv
+│   ├── explorer_tab.py
+│   ├── fix_tracker.csv
+│   ├── fixed_assistants_bundle.zip
+│   ├── git_push_v1.sh
+│   ├── launchpack_handoff_v1.2.md
+│   ├── main_app.py
+│   ├── organize_project.py
+│   ├── README.md
+│   ├── streamlit_audit_guard_structure.txt
+│   ├── streamlit_audit_guard_v1.0-final_enhanced.zip
+│   ├── streamlit_audit_guard_v1.0-final.zip
+│   ├── streamlit_audit_guard_v1.2-prebundle.zip
+│   ├── streamlit_audit_guard_v5.zip
+│   ├── v1_master_registry.csv
+│   ├── v1.0-enhancement_log.md
+│   └── v1.2-enhancement_log.md
+├── #StreamlitAuditGuard 2
+│   ├── assistant_registry.csv
+│   ├── CHANGELOG.md
+│   ├── fix_tracker.csv
+│   ├── fixed_assistants_bundle.zip
+│   ├── git_push_v1.sh
+│   ├── organize_project.py
+│   ├── README.md
+│   ├── streamlit_audit_guard_structure.txt
+│   ├── streamlit_audit_guard_v1.0-final.zip
+│   ├── streamlit_audit_guard_v5.zip
+│   └── v1_master_registry.csv
+├── #StreamlitAuditGuard 3
+│   ├── assistant_registry.csv
+│   ├── audit_dashboard_all.py
+│   ├── CHANGELOG.md
+│   ├── deployable_assistants.csv
+│   ├── explorer_tab.py
+│   ├── fix_tracker.csv
+│   ├── fixed_assistants_bundle.zip
+│   ├── git_push_v1.sh
+│   ├── launchpack_handoff_v1.2.md
+│   ├── main_app.py
+│   ├── organize_project.py
+│   ├── README.md
+│   ├── streamlit_audit_guard_structure.txt
+│   ├── streamlit_audit_guard_v1.0-final_enhanced.zip
+│   ├── streamlit_audit_guard_v1.0-final.zip
+│   ├── streamlit_audit_guard_v1.2-prebundle.zip
+│   ├── streamlit_audit_guard_v5.zip
+│   ├── v1_master_registry.csv
+│   ├── v1.0-enhancement_log.md
+│   └── v1.2-enhancement_log.md
+├── assistant_registry.csv
+├── audit_dashboard_all.py
+├── CHANGELOG.md
+├── deployable_assistants.csv
+├── explorer_tab.py
+├── fix_tracker.csv
+├── fixed_assistants_bundle.zip
+├── git_push_v1.sh
+├── launchpack_handoff_v1.2.md
+├── main_app.py
+├── organize_project.py
+├── README.md
+├── repo_structure.txt
+├── streamlit_audit_guard_structure.txt
+├── streamlit_audit_guard_v1.0-final
+│   ├── audit
+│   │   ├── assistant_registry.py
+│   │   ├── audit_dashboard_all.py
+│   │   ├── audit_dashboard.py
+│   │   ├── checks
+│   │   ├── deploy_tab.py
+│   │   ├── fix_summary_tab.py
+│   │   ├── project_status.py
+│   │   ├── recovery_tab.py
+│   │   ├── reports
+│   │   ├── run_audit.py
+│   │   ├── run_batch_audit.py
+│   │   └── utils
+│   └── data
+│       ├── assistant_registry.csv
+│       └── fix_tracker.csv
+├── streamlit_audit_guard_v1.0-final_enhanced
+│   ├── audit
+│   │   ├── assistant_registry.py
+│   │   ├── audit_dashboard_all.py
+│   │   ├── audit_dashboard.py
+│   │   ├── checks
+│   │   ├── deploy_tab.py
+│   │   ├── fix_summary_tab.py
+│   │   ├── main_app.py
+│   │   ├── project_status.py
+│   │   ├── recovery_tab.py
+│   │   ├── reports
+│   │   ├── run_audit.py
+│   │   ├── run_batch_audit.py
+│   │   ├── utils
+│   │   └── v1.0-enhancement_log.md
+│   ├── data
+│   │   ├── assistant_registry.csv
+│   │   └── fix_tracker.csv
+│   ├── organize_project.py
+│   └── README.md
+├── streamlit_audit_guard_v1.2-prebundle
+│   ├── audit
+│   │   ├── assistant_registry.py
+│   │   ├── audit_dashboard_all.py
+│   │   ├── audit_dashboard.py
+│   │   ├── checks
+│   │   ├── deploy_tab.py
+│   │   ├── explorer_tab.py
+│   │   ├── fix_summary_tab.py
+│   │   ├── main_app.py
+│   │   ├── project_status.py
+│   │   ├── recovery_tab.py
+│   │   ├── reports
+│   │   ├── run_audit.py
+│   │   ├── run_batch_audit.py
+│   │   ├── utils
+│   │   ├── v1.0-enhancement_log.md
+│   │   └── v1.2-enhancement_log.md
+│   ├── data
+│   │   ├── assistant_registry.csv
+│   │   ├── deployable_assistants.csv
+│   │   ├── fix_tracker.csv
+│   │   └── v1_master_registry.csv
+│   ├── organize_project.py
+│   └── README.md
+├── streamlit_audit_guard_v5
+│   ├── audit
+│   │   ├── assistant_registry.py
+│   │   ├── audit_dashboard_all.py
+│   │   ├── audit_dashboard.py
+│   │   ├── checks
+│   │   ├── deploy_tab.py
+│   │   ├── fix_summary_tab.py
+│   │   ├── project_status.py
+│   │   ├── recovery_tab.py
+│   │   ├── reports
+│   │   ├── run_audit.py
+│   │   ├── run_batch_audit.py
+│   │   └── utils
+│   └── data
+│       ├── assistant_registry.csv
+│       └── fix_tracker.csv
+├── v1_master_registry_with_backflow.csv
+├── v1_master_registry.csv
+├── v1.0-enhancement_log.md
+├── v1.2-enhancement_log.md
+└── zip_files
+    ├── #StreamlitAuditGuard 2.zip
+    ├── #StreamlitAuditGuard.zip
+    ├── streamlit_audit_guard_v1.0-final_enhanced.zip
+    ├── streamlit_audit_guard_v1.0-final.zip
+    ├── streamlit_audit_guard_v1.2-final-productivity.zip
+    ├── streamlit_audit_guard_v1.2-prebundle.zip
+    └── streamlit_audit_guard_v5.zip
+
+29 directories, 132 files

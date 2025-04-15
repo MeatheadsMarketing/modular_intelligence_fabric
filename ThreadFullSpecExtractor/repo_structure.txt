@@ -1,0 +1,52 @@
+.
+├── data
+│   ├── input_thread.json
+│   └── sample_run_log.json
+├── docs
+│   ├── EXPORT_SPEC.md
+│   ├── README.md
+│   └── SHORTCUT_REFERENCE.md
+├── engine
+│   ├── export_merger.py
+│   ├── export_writer.py
+│   ├── fragment_extractor.py
+│   ├── intent_parser.py
+│   ├── message_formatter.py
+│   ├── regenerate_missing_blocks.py
+│   ├── reparse_from_md.py
+│   ├── shortcut_detector.py
+│   ├── table_extractor.py
+│   └── thread_parser.py
+├── exports
+│   ├── audit_log.json
+│   ├── export_status.json
+│   ├── shortcut_evolution_log.json
+│   ├── thread_export.md
+│   └── thread_table.csv
+├── interface
+│   ├── prompt_templates
+│   │   ├── regenerate_tables.md
+│   │   └── validate_missing_blocks.md
+│   ├── run_cli.py
+│   ├── run_ui.py
+│   └── thread_preview_tab.py
+├── notion_sync_export_log.py
+├── repo_structure.txt
+├── requirements.txt
+├── setup.sh
+├── tests
+│   ├── dummy_threads
+│   │   ├── thread_001.json
+│   │   └── thread_002.json
+│   ├── test_output_integrity.py
+│   ├── test_parser_engine.py
+│   └── test_shortcut_detection.py
+├── validation
+│   ├── drift_checker.py
+│   ├── export_manifest.json
+│   ├── run_export_validation.py
+│   └── shortcut_validator.py
+└── zip_files
+    └── ThreadFullSpectrumExtraction_v1.0-final_bundle.zip
+
+11 directories, 39 files

@@ -1,0 +1,12 @@
+streamlit>=1.18.0
+pandas>=1.4.0
+numpy>=1.21.0
+openpyxl
+matplotlib
+python-dotenv
+watchdog
+tqdm
+scikit-learn
+requests
+fastapi
+uvicorn

@@ -1,0 +1,1 @@
+# Placeholder for SHORTCUT_REFERENCE.md

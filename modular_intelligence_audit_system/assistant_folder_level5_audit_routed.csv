@@ -1,0 +1,7 @@
+Assistant Folder,Python Files,run_ui() Found,Placeholder Detected,Launch Ready,Recovery Route
+AssistantLaunchPack,59,❌,❌,No,Missing run_ui()
+StreamlitAuditGuard,86,❌,❌,No,Missing run_ui()
+TerminalColabBuilder,3,❌,✅,No,Missing run_ui()
+ThreadFullSpecExtractor,20,❌,✅,No,Missing run_ui()
+ThreadRecovery,6,❌,✅,No,Missing run_ui()
+ThreadRecoveryEngine,1,❌,✅,No,Missing run_ui()

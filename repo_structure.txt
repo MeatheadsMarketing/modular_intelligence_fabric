@@ -1,0 +1,359 @@
+.
+├── AssistantLaunchPack
+│   ├── #AssistantLaunchPack.zip
+│   ├── agent_loop_runner.py
+│   ├── agent_registry.json
+│   ├── agent_router.py
+│   ├── agent_status.py
+│   ├── archives
+│   │   └── StreamlitSystemAuditor_v1.zip
+│   ├── assistant_api_fastapi.py
+│   ├── assistant_api.py
+│   ├── assistant_group_runner_v2.py
+│   ├── assistant_group_runner.py
+│   ├── Assistant_Launch_Pack_v1.6-final.zip
+│   ├── Assistant_Launch_Pack_v1.6.zip
+│   ├── Assistant_Launch_Pack_v1.7-dev.zip
+│   ├── Assistant_Launch_Pack_v1.7-prep.zip
+│   ├── Assistant_Launch_Pack_v1.8-dev.zip
+│   ├── Assistant_Launch_Pack_v1.8-prep.zip
+│   ├── Assistant_Launch_Pack_v1.9-dev.zip
+│   ├── Assistant_Launch_Pack_v1.9-prep.zip
+│   ├── Assistant_Launch_Pack_v2.0-prep.zip
+│   ├── Assistant_Launch_Pack_v2.1-dev.zip
+│   ├── Assistant_Launch_Pack_v2.1-prep.zip
+│   ├── Assistant_Launch_Pack_v2.2-dev.zip
+│   ├── Assistant_Launch_Pack_v2.2-prep.zip
+│   ├── assistant_packager.py
+│   ├── assistant_profiles.json
+│   ├── AssistantLaunch_v1.5_ProductivityBridge_Bundle.zip
+│   ├── AssistantLaunch_VersionRoadmap_Productivity.md
+│   ├── auth_stub.py
+│   ├── background_runner.py
+│   ├── calendar_logger.py
+│   ├── client_script_template.py
+│   ├── drive_uploader.py
+│   ├── filter_panel.py
+│   ├── finalize_repo_setup.py
+│   ├── flow_runner.py
+│   ├── git_pre_push_hook.py
+│   ├── group_config.json
+│   ├── group_profile.json
+│   ├── group_reflector.py
+│   ├── level5_audit_report.json
+│   ├── level5_audit_report.md
+│   ├── loop_scheduler.py
+│   ├── loop_trigger.py
+│   ├── main_dashboard.py
+│   ├── memory_embedder.py
+│   ├── monetization_tags.py
+│   ├── notion_connector.py
+│   ├── notion_sync.py
+│   ├── organize_repo_v2.py
+│   ├── organize_repo.py
+│   ├── performance_score.py
+│   ├── pricing_tiers.json
+│   ├── README.md
+│   ├── release_notes_v1.5.md
+│   ├── Repo_Structure_SelfTest.md
+│   ├── repo_structure.txt
+│   ├── requirements.txt
+│   ├── router_rules.json
+│   ├── semantic_memory.py
+│   ├── session_tracker.py
+│   ├── slack_notifier.py
+│   ├── Streamlit_System_Audit__Tagged_.csv
+│   ├── summary_publisher.py
+│   ├── tab_agent_performance.py
+│   ├── tab_assistant_overview.py
+│   ├── tab_delegation_history.py
+│   ├── tab_group_executor.py
+│   ├── tab_group_history.py
+│   ├── tab_group_reflection.py
+│   ├── tab_insights_center.py
+│   ├── tab_launchhub_dashboard.py
+│   ├── tab_logs_panel.py
+│   ├── tab_loop_inspector.py
+│   ├── tab_memory_inspector.py
+│   ├── tab_multi_agent_console.py
+│   ├── tab_scheduler_dashboard.py
+│   ├── tab_service_monitor.py
+│   ├── tab_workspace_bridge.py
+│   ├── token_budget.py
+│   ├── token_tracker.py
+│   ├── trigger_rules.json
+│   ├── usage_recorder.py
+│   ├── v1.1
+│   │   ├── audit
+│   │   ├── handoffs
+│   │   ├── idea_log
+│   │   ├── streamlit_shortcut_system_v1.1.zip
+│   │   └── tabs
+│   ├── v1.2
+│   │   ├── Assistant_Launch_Pack_v1.2-final-ready.zip
+│   │   ├── Assistant_Launch_Pack_v1.2-final-with-README.zip
+│   │   ├── audit
+│   │   ├── FileMind_ControlDeck_v1.2-prep.zip
+│   │   ├── FileMind_Streamlit_Stack_v1.2-complete_final.zip
+│   │   ├── FileMind_Streamlit_Stack_v1.2-rebuilt_tabs_launcher.zip
+│   │   ├── FileMind_Streamlit_Stack_v1.2-rebuilt_tabs.zip
+│   │   ├── handoffs
+│   │   ├── idea_log
+│   │   ├── Streamlit_CoreStack_v1.2-final.zip
+│   │   ├── Streamlit_CoreStack_v1.2-FinalizationPackage.zip
+│   │   └── tabs
+│   ├── v1.3
+│   │   ├── Assistant_Launch_Pack_v1.3-dev_updated.zip
+│   │   ├── Assistant_Launch_Pack_v1.3-dev.zip
+│   │   ├── Assistant_Launch_Pack_v1.3-pre-final.zip
+│   │   ├── Assistant_Launch_Pack_v1.3-prep.zip
+│   │   ├── audit
+│   │   ├── handoffs
+│   │   ├── idea_log
+│   │   ├── tabs
+│   │   └── v1.3_PlanningMatrix.md
+│   ├── v1.4
+│   │   ├── Assistant_Launch_Pack_v1.4-dev.zip
+│   │   ├── Assistant_Launch_Pack_v1.4-prep.zip
+│   │   ├── audit
+│   │   ├── handoffs
+│   │   ├── idea_log
+│   │   ├── tabs
+│   │   └── v1.4_PlanningMatrix.md
+│   ├── v1.5
+│   │   ├── Assistant_Launch_Pack_v1.5-dev-dashboard-complete.zip
+│   │   ├── Assistant_Launch_Pack_v1.5-dev-enhanced.zip
+│   │   ├── Assistant_Launch_Pack_v1.5-dev-monetization.zip
+│   │   ├── Assistant_Launch_Pack_v1.5-dev-packaging-ready.zip
+│   │   ├── Assistant_Launch_Pack_v1.5-prep_updated.zip
+│   │   ├── Assistant_Launch_Pack_v1.5-prep-complete.zip
+│   │   ├── Assistant_Launch_Pack_v1.5-prep.zip
+│   │   ├── audit
+│   │   ├── handoffs
+│   │   ├── idea_log
+│   │   ├── tabs
+│   │   ├── v1.5_PlanningMatrix.md
+│   │   └── v1.5-final-checklist.md
+│   ├── v1.5_self_test.md
+│   ├── v1.6
+│   │   ├── audit
+│   │   ├── handoffs
+│   │   ├── idea_log
+│   │   └── tabs
+│   ├── v1.6_clarity_handoff.md
+│   ├── v1.9_clarity_handoff.md
+│   ├── webhook_alert.py
+│   ├── weekly_memory_summary.py
+│   ├── workspace_config.json
+│   └── zip_validator.py
+├── repo_structure.txt
+├── StreamlitAuditGuard
+│   ├── #StreamlitAuditGuard
+│   │   ├── assistant_registry.csv
+│   │   ├── audit_dashboard_all.py
+│   │   ├── CHANGELOG.md
+│   │   ├── deployable_assistants.csv
+│   │   ├── explorer_tab.py
+│   │   ├── fix_tracker.csv
+│   │   ├── fixed_assistants_bundle.zip
+│   │   ├── git_push_v1.sh
+│   │   ├── launchpack_handoff_v1.2.md
+│   │   ├── main_app.py
+│   │   ├── organize_project.py
+│   │   ├── README.md
+│   │   ├── streamlit_audit_guard_structure.txt
+│   │   ├── streamlit_audit_guard_v1.0-final_enhanced.zip
+│   │   ├── streamlit_audit_guard_v1.0-final.zip
+│   │   ├── streamlit_audit_guard_v1.2-prebundle.zip
+│   │   ├── streamlit_audit_guard_v5.zip
+│   │   ├── v1_master_registry.csv
+│   │   ├── v1.0-enhancement_log.md
+│   │   └── v1.2-enhancement_log.md
+│   ├── #StreamlitAuditGuard 2
+│   │   ├── assistant_registry.csv
+│   │   ├── CHANGELOG.md
+│   │   ├── fix_tracker.csv
+│   │   ├── fixed_assistants_bundle.zip
+│   │   ├── git_push_v1.sh
+│   │   ├── organize_project.py
+│   │   ├── README.md
+│   │   ├── streamlit_audit_guard_structure.txt
+│   │   ├── streamlit_audit_guard_v1.0-final.zip
+│   │   ├── streamlit_audit_guard_v5.zip
+│   │   └── v1_master_registry.csv
+│   ├── #StreamlitAuditGuard 3
+│   │   ├── assistant_registry.csv
+│   │   ├── audit_dashboard_all.py
+│   │   ├── CHANGELOG.md
+│   │   ├── deployable_assistants.csv
+│   │   ├── explorer_tab.py
+│   │   ├── fix_tracker.csv
+│   │   ├── fixed_assistants_bundle.zip
+│   │   ├── git_push_v1.sh
+│   │   ├── launchpack_handoff_v1.2.md
+│   │   ├── main_app.py
+│   │   ├── organize_project.py
+│   │   ├── README.md
+│   │   ├── streamlit_audit_guard_structure.txt
+│   │   ├── streamlit_audit_guard_v1.0-final_enhanced.zip
+│   │   ├── streamlit_audit_guard_v1.0-final.zip
+│   │   ├── streamlit_audit_guard_v1.2-prebundle.zip
+│   │   ├── streamlit_audit_guard_v5.zip
+│   │   ├── v1_master_registry.csv
+│   │   ├── v1.0-enhancement_log.md
+│   │   └── v1.2-enhancement_log.md
+│   ├── assistant_registry.csv
+│   ├── audit_dashboard_all.py
+│   ├── CHANGELOG.md
+│   ├── deployable_assistants.csv
+│   ├── explorer_tab.py
+│   ├── fix_tracker.csv
+│   ├── fixed_assistants_bundle.zip
+│   ├── git_push_v1.sh
+│   ├── launchpack_handoff_v1.2.md
+│   ├── main_app.py
+│   ├── organize_project.py
+│   ├── README_StreamlitAuditSystem_v1.2.md
+│   ├── README.md
+│   ├── repo_structure.txt
+│   ├── streamlit_audit_guard_structure.txt
+│   ├── streamlit_audit_guard_v1.0-final
+│   │   ├── audit
+│   │   └── data
+│   ├── streamlit_audit_guard_v1.0-final_enhanced
+│   │   ├── audit
+│   │   ├── data
+│   │   ├── organize_project.py
+│   │   └── README.md
+│   ├── streamlit_audit_guard_v1.2-prebundle
+│   │   ├── audit
+│   │   ├── data
+│   │   ├── organize_project.py
+│   │   └── README.md
+│   ├── streamlit_audit_guard_v5
+│   │   ├── audit
+│   │   └── data
+│   ├── v1_master_registry_with_backflow.csv
+│   ├── v1_master_registry.csv
+│   ├── v1.0-enhancement_log.md
+│   ├── v1.2-enhancement_log.md
+│   └── zip_files
+│       ├── #StreamlitAuditGuard 2.zip
+│       ├── #StreamlitAuditGuard.zip
+│       ├── streamlit_audit_guard_v1.0-final_enhanced.zip
+│       ├── streamlit_audit_guard_v1.0-final.zip
+│       ├── streamlit_audit_guard_v1.2-final-productivity.zip
+│       ├── streamlit_audit_guard_v1.2-prebundle.zip
+│       └── streamlit_audit_guard_v5.zip
+├── TerminalColabBuilder
+│   ├── #ColabRevoryLab
+│   │   ├── colab_recovery_lab.py
+│   │   ├── GPT_Thread_Recovery_Colab.ipynb
+│   │   └── GPT_Thread_Recovery_Lab_Repo.zip
+│   ├── #Terminal-FirstStreamlitBuilder
+│   │   ├── cli_generate.py
+│   │   ├── file_role_clarifier.py
+│   │   ├── new_assistant.sh
+│   │   ├── README.md
+│   │   ├── run_auto_recovery.sh
+│   │   ├── run_builder_flow.sh
+│   │   ├── template_registry.json
+│   │   ├── terminal_first_builder_bundle.zip
+│   │   ├── terminal_first_streamlit_builder_spec.md
+│   │   ├── TerminalBuilder_v1.1-full.zip
+│   │   ├── TerminalBuilder_v1.2-dev.zip
+│   │   └── thread_registry.csv
+│   └── repo_structure.txt
+├── ThreadFullSpecExtractor
+│   ├── data
+│   │   ├── input_thread.json
+│   │   └── sample_run_log.json
+│   ├── docs
+│   │   ├── EXPORT_SPEC.md
+│   │   ├── README.md
+│   │   └── SHORTCUT_REFERENCE.md
+│   ├── engine
+│   │   ├── export_merger.py
+│   │   ├── export_writer.py
+│   │   ├── fragment_extractor.py
+│   │   ├── intent_parser.py
+│   │   ├── message_formatter.py
+│   │   ├── regenerate_missing_blocks.py
+│   │   ├── reparse_from_md.py
+│   │   ├── shortcut_detector.py
+│   │   ├── table_extractor.py
+│   │   └── thread_parser.py
+│   ├── exports
+│   │   ├── audit_log.json
+│   │   ├── export_status.json
+│   │   ├── shortcut_evolution_log.json
+│   │   ├── thread_export.md
+│   │   └── thread_table.csv
+│   ├── interface
+│   │   ├── prompt_templates
+│   │   ├── run_cli.py
+│   │   ├── run_ui.py
+│   │   └── thread_preview_tab.py
+│   ├── notion_sync_export_log.py
+│   ├── repo_structure.txt
+│   ├── requirements.txt
+│   ├── setup.sh
+│   ├── tests
+│   │   ├── dummy_threads
+│   │   ├── test_output_integrity.py
+│   │   ├── test_parser_engine.py
+│   │   └── test_shortcut_detection.py
+│   ├── ThreadFullSpectrumExtraction_v1.0-github-ready.zip
+│   ├── ThreadRecoveryOrganizer_v1.0-complete.zip
+│   ├── validation
+│   │   ├── drift_checker.py
+│   │   ├── export_manifest.json
+│   │   ├── run_export_validation.py
+│   │   └── shortcut_validator.py
+│   └── zip_files
+│       └── ThreadFullSpectrumExtraction_v1.0-final_bundle.zip
+├── ThreadRecovery
+│   ├── enrich_registry.py
+│   ├── gpt_thread_recovery_spec.md
+│   ├── gpt_thread_recovery.py
+│   ├── master_table_1.csv
+│   ├── master_table_2.csv
+│   ├── merge_summary.csv
+│   ├── README_github_ready.md
+│   ├── README.md
+│   ├── recovery_summary_TEMPLATE.md
+│   ├── repo_structure.txt
+│   ├── run_auto_recovery_v2.sh
+│   ├── streamlit_log_viewer.py
+│   ├── table_group_merge_spec.md
+│   ├── table_group_merge.py
+│   ├── thread_chapter_log_TEMPLATE+ENHANCED.md
+│   ├── thread_log_TEMPLATE_for_recovery.md
+│   ├── thread_log.csv
+│   ├── thread_recovery_coach_BOOT.md
+│   ├── thread_registry.csv
+│   ├── ThreadRecoveryOrganizer_GitHubReady.zip
+│   ├── validate_recovery.py
+│   ├── write_summary.py
+│   └── zip_files
+│       ├── master_tables_bundle.zip
+│       ├── thread_recovery_bundle_v1.0.zip
+│       └── ThreadRecoveryOrganizer_v1.1.zip
+└── ThreadRecoveryEngine
+    ├── README_github_ready.md
+    ├── Thread_Recovery_Engine_v1.0
+    │   ├── export_status.json
+    │   ├── file_role_clarifier.py
+    │   ├── frag_AUTOHOOK_003.md
+    │   ├── frag_O_002.md
+    │   ├── frag_SNS_001.md
+    │   ├── README.md
+    │   ├── recovery_matrix.csv
+    │   ├── run_auto_recovery.sh
+    │   ├── thread_log.csv
+    │   └── thread_registry.csv
+    └── zip_files
+        ├── Thread_Recovery_Engine_v1.0.zip
+        └── ThreadRecoveryOrganizer_v1.0-complete.zip
+
+69 directories, 288 files

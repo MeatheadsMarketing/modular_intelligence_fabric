@@ -1,0 +1,3 @@
+Table Group,Headers,Merged Count,Output CSV
+1,"['Stage', 'Description']",1,master_table_1.csv
+2,[],1,master_table_2.csv

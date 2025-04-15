@@ -1,0 +1,20 @@
+{
+    "base_blank": {
+        "description": "Minimal Streamlit assistant with no predefined logic.",
+        "version": "1.0",
+        "tags": [
+            "blank",
+            "starter",
+            "template"
+        ]
+    },
+    "seo_audit": {
+        "description": "Streamlit assistant for SEO audits and website analysis.",
+        "version": "1.0",
+        "tags": [
+            "seo",
+            "audit",
+            "template"
+        ]
+    }
+}

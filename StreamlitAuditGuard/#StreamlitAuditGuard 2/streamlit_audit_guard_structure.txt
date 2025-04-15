@@ -1,0 +1,25 @@
+├── audit/
+│   ├── assistant_registry.py
+│   ├── audit_dashboard.py
+│   ├── audit_dashboard_all.py
+│   ├── checks/
+│   │   ├── file_structure_check.py
+│   │   ├── manifest_validator.py
+│   │   ├── performance_check.py
+│   │   ├── placeholder_scan.py
+│   │   ├── streamlit_run_check.py
+│   │   ├── ui_integrity_check.py
+│   ├── deploy_tab.py
+│   ├── fix_summary_tab.py
+│   ├── project_status.py
+│   ├── recovery_tab.py
+│   ├── reports/
+│   ├── run_audit.py
+│   ├── run_batch_audit.py
+│   ├── utils/
+│   │   ├── fixer.py
+│   │   ├── logger.py
+├── data/
+│   ├── assistant_registry.csv
+│   ├── fix_tracker.csv
+├── organize_project.py
