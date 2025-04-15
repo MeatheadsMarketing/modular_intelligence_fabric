@@ -1,0 +1,3 @@
+[submodule "AssistantLaunchPack"]
+	path = AssistantLaunchPack
+	url = https://github.com/MeatheadsMarketing/AssistantLaunchPack.git
